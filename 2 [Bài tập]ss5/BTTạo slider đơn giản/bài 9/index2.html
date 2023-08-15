@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 9</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            background-color: rgb(130, 129, 129);
+            width: 5px;
+            height: 200px;
+            transition: all;
+            transition-duration: 1s;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+
+        li {
+            padding: 15px;
+        }
+
+        span:hover+ul {
+            width: 170px;
+        }
+        .ba {
+            width: 500px;
+            background-color: black;
+        }
+        .me{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="ba">
+    <div style="margin-left: 40px;" class="me">
+        <span class="material-symbols-outlined">
+            close
+        </span>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Info</li>
+            <li>Contact</li>
+            <li>Show me more</li>
+        </ul>
+    </div>
+</div>    
+</body>
+</html>
